@@ -506,7 +506,7 @@
 		BC72B0531B8C48470079F096 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0521B8C48470079F096 /* CustomTableViewCell.m */; };
 		BC72B0561B8C494E0079F096 /* InformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0551B8C494E0079F096 /* InformationModel.m */; };
 		BC72B05A1B8C568B0079F096 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0591B8C568B0079F096 /* DetailViewController.m */; };
-		BC72B0601B8C69810079F096 /* MagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B05F1B8C69810079F096 /* MagazineViewController.m */; };
+		BC72B0631B8C6AA00079F096 /* MagazineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0621B8C6AA00079F096 /* MagazineModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1061,8 +1061,8 @@
 		BC72B0551B8C494E0079F096 /* InformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationModel.m; sourceTree = "<group>"; };
 		BC72B0581B8C568B0079F096 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		BC72B0591B8C568B0079F096 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		BC72B05E1B8C69810079F096 /* MagazineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazineViewController.h; sourceTree = "<group>"; };
-		BC72B05F1B8C69810079F096 /* MagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazineViewController.m; sourceTree = "<group>"; };
+		BC72B0611B8C6AA00079F096 /* MagazineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazineModel.h; sourceTree = "<group>"; };
+		BC72B0621B8C6AA00079F096 /* MagazineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazineModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1193,8 +1193,8 @@
 			children = (
 				BC72B0541B8C494E0079F096 /* InformationModel.h */,
 				BC72B0551B8C494E0079F096 /* InformationModel.m */,
-				BC72B05E1B8C69810079F096 /* MagazineViewController.h */,
-				BC72B05F1B8C69810079F096 /* MagazineViewController.m */,
+				BC72B0611B8C6AA00079F096 /* MagazineModel.h */,
+				BC72B0621B8C6AA00079F096 /* MagazineModel.m */,
 			);
 			name = Models;
 			path = VistaAPP_001/Models;
@@ -2377,9 +2377,9 @@
 				BC72B05A1B8C568B0079F096 /* DetailViewController.m in Sources */,
 				BC72AC981B8C3E610079F096 /* SDWebImageManager.m in Sources */,
 				BC72AC8B1B8C3E610079F096 /* MJRefreshConst.m in Sources */,
-				BC72B0601B8C69810079F096 /* MagazineViewController.m in Sources */,
 				BC72AC8E1B8C3E610079F096 /* UIScrollView+MJExtension.m in Sources */,
 				BC72B04D1B8C42B20079F096 /* PictureViewController.m in Sources */,
+				BC72B0631B8C6AA00079F096 /* MagazineModel.m in Sources */,
 				BC72B0471B8C429A0079F096 /* MagazineViewController.m in Sources */,
 				BC72B0531B8C48470079F096 /* CustomTableViewCell.m in Sources */,
 				BC72AC961B8C3E610079F096 /* SDWebImageDownloader.m in Sources */,
