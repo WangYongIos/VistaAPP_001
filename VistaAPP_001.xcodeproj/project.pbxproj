@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC72AC171B8C3DD80079F096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC161B8C3DD80079F096 /* Foundation.framework */; };
+		BC72AC191B8C3DD80079F096 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC181B8C3DD80079F096 /* CoreGraphics.framework */; };
+		BC72AC1B1B8C3DD80079F096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC1A1B8C3DD80079F096 /* UIKit.framework */; };
+		BC72AC211B8C3DD80079F096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC72AC1F1B8C3DD80079F096 /* InfoPlist.strings */; };
+		BC72AC231B8C3DD80079F096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72AC221B8C3DD80079F096 /* main.m */; };
+		BC72AC271B8C3DD80079F096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72AC261B8C3DD80079F096 /* AppDelegate.m */; };
+		BC72AC291B8C3DD80079F096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC72AC281B8C3DD80079F096 /* Images.xcassets */; };
+		BC72AC301B8C3DD90079F096 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC2F1B8C3DD80079F096 /* XCTest.framework */; };
+		BC72AC311B8C3DD90079F096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC161B8C3DD80079F096 /* Foundation.framework */; };
+		BC72AC321B8C3DD90079F096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC72AC1A1B8C3DD80079F096 /* UIKit.framework */; };
+		BC72AC3A1B8C3DD90079F096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC72AC381B8C3DD90079F096 /* InfoPlist.strings */; };
+		BC72AC3C1B8C3DD90079F096 /* VistaAPP_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72AC3B1B8C3DD90079F096 /* VistaAPP_001Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC72AC331B8C3DD90079F096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC72AC0B1B8C3DD80079F096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC72AC121B8C3DD80079F096;
+			remoteInfo = VistaAPP_001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC72AC131B8C3DD80079F096 /* VistaAPP_001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistaAPP_001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC72AC161B8C3DD80079F096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC72AC181B8C3DD80079F096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC72AC1A1B8C3DD80079F096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC72AC1E1B8C3DD80079F096 /* VistaAPP_001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VistaAPP_001-Info.plist"; sourceTree = "<group>"; };
+		BC72AC201B8C3DD80079F096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC72AC221B8C3DD80079F096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC72AC241B8C3DD80079F096 /* VistaAPP_001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VistaAPP_001-Prefix.pch"; sourceTree = "<group>"; };
+		BC72AC251B8C3DD80079F096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC72AC261B8C3DD80079F096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC72AC281B8C3DD80079F096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC72AC2E1B8C3DD80079F096 /* VistaAPP_001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VistaAPP_001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC72AC2F1B8C3DD80079F096 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC72AC371B8C3DD90079F096 /* VistaAPP_001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VistaAPP_001Tests-Info.plist"; sourceTree = "<group>"; };
+		BC72AC391B8C3DD90079F096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC72AC3B1B8C3DD90079F096 /* VistaAPP_001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VistaAPP_001Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC72AC101B8C3DD80079F096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC191B8C3DD80079F096 /* CoreGraphics.framework in Frameworks */,
+				BC72AC1B1B8C3DD80079F096 /* UIKit.framework in Frameworks */,
+				BC72AC171B8C3DD80079F096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72AC2B1B8C3DD80079F096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC301B8C3DD90079F096 /* XCTest.framework in Frameworks */,
+				BC72AC321B8C3DD90079F096 /* UIKit.framework in Frameworks */,
+				BC72AC311B8C3DD90079F096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC72AC0A1B8C3DD80079F096 = {
+			isa = PBXGroup;
+			children = (
+				BC72AC1C1B8C3DD80079F096 /* VistaAPP_001 */,
+				BC72AC351B8C3DD90079F096 /* VistaAPP_001Tests */,
+				BC72AC151B8C3DD80079F096 /* Frameworks */,
+				BC72AC141B8C3DD80079F096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC72AC141B8C3DD80079F096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC131B8C3DD80079F096 /* VistaAPP_001.app */,
+				BC72AC2E1B8C3DD80079F096 /* VistaAPP_001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC72AC151B8C3DD80079F096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC161B8C3DD80079F096 /* Foundation.framework */,
+				BC72AC181B8C3DD80079F096 /* CoreGraphics.framework */,
+				BC72AC1A1B8C3DD80079F096 /* UIKit.framework */,
+				BC72AC2F1B8C3DD80079F096 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC72AC1C1B8C3DD80079F096 /* VistaAPP_001 */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC251B8C3DD80079F096 /* AppDelegate.h */,
+				BC72AC261B8C3DD80079F096 /* AppDelegate.m */,
+				BC72AC281B8C3DD80079F096 /* Images.xcassets */,
+				BC72AC1D1B8C3DD80079F096 /* Supporting Files */,
+			);
+			path = VistaAPP_001;
+			sourceTree = "<group>";
+		};
+		BC72AC1D1B8C3DD80079F096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC1E1B8C3DD80079F096 /* VistaAPP_001-Info.plist */,
+				BC72AC1F1B8C3DD80079F096 /* InfoPlist.strings */,
+				BC72AC221B8C3DD80079F096 /* main.m */,
+				BC72AC241B8C3DD80079F096 /* VistaAPP_001-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC72AC351B8C3DD90079F096 /* VistaAPP_001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC3B1B8C3DD90079F096 /* VistaAPP_001Tests.m */,
+				BC72AC361B8C3DD90079F096 /* Supporting Files */,
+			);
+			path = VistaAPP_001Tests;
+			sourceTree = "<group>";
+		};
+		BC72AC361B8C3DD90079F096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC72AC371B8C3DD90079F096 /* VistaAPP_001Tests-Info.plist */,
+				BC72AC381B8C3DD90079F096 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC72AC121B8C3DD80079F096 /* VistaAPP_001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72AC3F1B8C3DD90079F096 /* Build configuration list for PBXNativeTarget "VistaAPP_001" */;
+			buildPhases = (
+				BC72AC0F1B8C3DD80079F096 /* Sources */,
+				BC72AC101B8C3DD80079F096 /* Frameworks */,
+				BC72AC111B8C3DD80079F096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VistaAPP_001;
+			productName = VistaAPP_001;
+			productReference = BC72AC131B8C3DD80079F096 /* VistaAPP_001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC72AC2D1B8C3DD80079F096 /* VistaAPP_001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC72AC421B8C3DD90079F096 /* Build configuration list for PBXNativeTarget "VistaAPP_001Tests" */;
+			buildPhases = (
+				BC72AC2A1B8C3DD80079F096 /* Sources */,
+				BC72AC2B1B8C3DD80079F096 /* Frameworks */,
+				BC72AC2C1B8C3DD80079F096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC72AC341B8C3DD90079F096 /* PBXTargetDependency */,
+			);
+			name = VistaAPP_001Tests;
+			productName = VistaAPP_001Tests;
+			productReference = BC72AC2E1B8C3DD80079F096 /* VistaAPP_001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC72AC0B1B8C3DD80079F096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "柳德智";
+				TargetAttributes = {
+					BC72AC2D1B8C3DD80079F096 = {
+						TestTargetID = BC72AC121B8C3DD80079F096;
+					};
+				};
+			};
+			buildConfigurationList = BC72AC0E1B8C3DD80079F096 /* Build configuration list for PBXProject "VistaAPP_001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC72AC0A1B8C3DD80079F096;
+			productRefGroup = BC72AC141B8C3DD80079F096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC72AC121B8C3DD80079F096 /* VistaAPP_001 */,
+				BC72AC2D1B8C3DD80079F096 /* VistaAPP_001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC72AC111B8C3DD80079F096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC211B8C3DD80079F096 /* InfoPlist.strings in Resources */,
+				BC72AC291B8C3DD80079F096 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72AC2C1B8C3DD80079F096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC3A1B8C3DD90079F096 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC72AC0F1B8C3DD80079F096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC271B8C3DD80079F096 /* AppDelegate.m in Sources */,
+				BC72AC231B8C3DD80079F096 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC72AC2A1B8C3DD80079F096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC72AC3C1B8C3DD90079F096 /* VistaAPP_001Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC72AC341B8C3DD90079F096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC72AC121B8C3DD80079F096 /* VistaAPP_001 */;
+			targetProxy = BC72AC331B8C3DD90079F096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC72AC1F1B8C3DD80079F096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC72AC201B8C3DD80079F096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC72AC381B8C3DD90079F096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC72AC391B8C3DD90079F096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC72AC3D1B8C3DD90079F096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC72AC3E1B8C3DD90079F096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC72AC401B8C3DD90079F096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VistaAPP_001/VistaAPP_001-Prefix.pch";
+				INFOPLIST_FILE = "VistaAPP_001/VistaAPP_001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC72AC411B8C3DD90079F096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VistaAPP_001/VistaAPP_001-Prefix.pch";
+				INFOPLIST_FILE = "VistaAPP_001/VistaAPP_001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC72AC431B8C3DD90079F096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VistaAPP_001.app/VistaAPP_001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VistaAPP_001/VistaAPP_001-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VistaAPP_001Tests/VistaAPP_001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC72AC441B8C3DD90079F096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VistaAPP_001.app/VistaAPP_001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VistaAPP_001/VistaAPP_001-Prefix.pch";
+				INFOPLIST_FILE = "VistaAPP_001Tests/VistaAPP_001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC72AC0E1B8C3DD80079F096 /* Build configuration list for PBXProject "VistaAPP_001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72AC3D1B8C3DD90079F096 /* Debug */,
+				BC72AC3E1B8C3DD90079F096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC72AC3F1B8C3DD90079F096 /* Build configuration list for PBXNativeTarget "VistaAPP_001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72AC401B8C3DD90079F096 /* Debug */,
+				BC72AC411B8C3DD90079F096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC72AC421B8C3DD90079F096 /* Build configuration list for PBXNativeTarget "VistaAPP_001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72AC431B8C3DD90079F096 /* Debug */,
+				BC72AC441B8C3DD90079F096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC72AC0B1B8C3DD80079F096 /* Project object */;
+}
