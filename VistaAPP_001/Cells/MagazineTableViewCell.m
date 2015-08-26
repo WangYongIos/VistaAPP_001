@@ -30,7 +30,9 @@
      UIImageView * imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
      imgView.image = [UIImage imageNamed:@"缺省图阴影"];
      */
-    self.coverImgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
+    self.coverImgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];UIImageView * imgView3 = [[UIImageView alloc] initWithFrame:CGRectMake(-1, -1, 83, 83)];
+    imgView3.image = [UIImage imageNamed:@"缺省图阴影"];
+    [self.coverImgView addSubview:imgView3];
     [view addSubview:self.coverImgView];
     
     self.titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 5, 190, 20)];
