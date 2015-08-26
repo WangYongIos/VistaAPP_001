@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MagazineViewController : UIViewController
+@interface MagazineViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end

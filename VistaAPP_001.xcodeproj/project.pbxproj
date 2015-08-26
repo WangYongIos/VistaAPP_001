@@ -507,6 +507,11 @@
 		BC72B0561B8C494E0079F096 /* InformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0551B8C494E0079F096 /* InformationModel.m */; };
 		BC72B05A1B8C568B0079F096 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0591B8C568B0079F096 /* DetailViewController.m */; };
 		BC72B0631B8C6AA00079F096 /* MagazineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0621B8C6AA00079F096 /* MagazineModel.m */; };
+		BC72B0661B8C6BE40079F096 /* MagazineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0651B8C6BE40079F096 /* MagazineTableViewCell.m */; };
+		BC72B0691B8C705F0079F096 /* MagaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0681B8C705F0079F096 /* MagaDetailViewController.m */; };
+		BC72B06C1B8C9DC80079F096 /* PictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B06B1B8C9DC80079F096 /* PictureModel.m */; };
+		BC72B06F1B8C9F200079F096 /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B06E1B8C9F200079F096 /* PictureCollectionViewCell.m */; };
+		BC72B0721B8D4C5A0079F096 /* PicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72B0711B8D4C5A0079F096 /* PicDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1063,6 +1068,16 @@
 		BC72B0591B8C568B0079F096 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BC72B0611B8C6AA00079F096 /* MagazineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazineModel.h; sourceTree = "<group>"; };
 		BC72B0621B8C6AA00079F096 /* MagazineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazineModel.m; sourceTree = "<group>"; };
+		BC72B0641B8C6BE40079F096 /* MagazineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazineTableViewCell.h; sourceTree = "<group>"; };
+		BC72B0651B8C6BE40079F096 /* MagazineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazineTableViewCell.m; sourceTree = "<group>"; };
+		BC72B0671B8C705F0079F096 /* MagaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagaDetailViewController.h; sourceTree = "<group>"; };
+		BC72B0681B8C705F0079F096 /* MagaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagaDetailViewController.m; sourceTree = "<group>"; };
+		BC72B06A1B8C9DC80079F096 /* PictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureModel.h; sourceTree = "<group>"; };
+		BC72B06B1B8C9DC80079F096 /* PictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureModel.m; sourceTree = "<group>"; };
+		BC72B06D1B8C9F200079F096 /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		BC72B06E1B8C9F200079F096 /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
+		BC72B0701B8D4C5A0079F096 /* PicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicDetailViewController.h; sourceTree = "<group>"; };
+		BC72B0711B8D4C5A0079F096 /* PicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1171,6 +1186,10 @@
 			children = (
 				BC72B0511B8C48470079F096 /* CustomTableViewCell.h */,
 				BC72B0521B8C48470079F096 /* CustomTableViewCell.m */,
+				BC72B0641B8C6BE40079F096 /* MagazineTableViewCell.h */,
+				BC72B0651B8C6BE40079F096 /* MagazineTableViewCell.m */,
+				BC72B06D1B8C9F200079F096 /* PictureCollectionViewCell.h */,
+				BC72B06E1B8C9F200079F096 /* PictureCollectionViewCell.m */,
 			);
 			name = Cells;
 			path = VistaAPP_001/Cells;
@@ -1195,6 +1214,8 @@
 				BC72B0551B8C494E0079F096 /* InformationModel.m */,
 				BC72B0611B8C6AA00079F096 /* MagazineModel.h */,
 				BC72B0621B8C6AA00079F096 /* MagazineModel.m */,
+				BC72B06A1B8C9DC80079F096 /* PictureModel.h */,
+				BC72B06B1B8C9DC80079F096 /* PictureModel.m */,
 			);
 			name = Models;
 			path = VistaAPP_001/Models;
@@ -1797,6 +1818,8 @@
 			children = (
 				BC72B0451B8C429A0079F096 /* MagazineViewController.h */,
 				BC72B0461B8C429A0079F096 /* MagazineViewController.m */,
+				BC72B0671B8C705F0079F096 /* MagaDetailViewController.h */,
+				BC72B0681B8C705F0079F096 /* MagaDetailViewController.m */,
 			);
 			name = Magazine;
 			sourceTree = "<group>";
@@ -1806,6 +1829,8 @@
 			children = (
 				BC72B04B1B8C42B20079F096 /* PictureViewController.h */,
 				BC72B04C1B8C42B20079F096 /* PictureViewController.m */,
+				BC72B0701B8D4C5A0079F096 /* PicDetailViewController.h */,
+				BC72B0711B8D4C5A0079F096 /* PicDetailViewController.m */,
 			);
 			name = Picture;
 			sourceTree = "<group>";
@@ -2387,18 +2412,23 @@
 				BC72B0561B8C494E0079F096 /* InformationModel.m in Sources */,
 				BC72AC941B8C3E610079F096 /* SDWebImageCompat.m in Sources */,
 				BC72AC991B8C3E610079F096 /* SDWebImagePrefetcher.m in Sources */,
+				BC72B06C1B8C9DC80079F096 /* PictureModel.m in Sources */,
 				BC72ACA01B8C3E610079F096 /* UIView+WebCacheOperation.m in Sources */,
 				BC72AC9C1B8C3E610079F096 /* UIImage+MultiFormat.m in Sources */,
 				BC72AC8A1B8C3E610079F096 /* MJRefreshBaseView.m in Sources */,
+				BC72B0661B8C6BE40079F096 /* MagazineTableViewCell.m in Sources */,
 				BC72AC901B8C3E610079F096 /* UIView+MJExtension.m in Sources */,
 				BC72ACA31B8C3E610079F096 /* NSString+Hashing.m in Sources */,
+				BC72B06F1B8C9F200079F096 /* PictureCollectionViewCell.m in Sources */,
 				BC72AC9A1B8C3E610079F096 /* UIButton+WebCache.m in Sources */,
 				BC72AC8F1B8C3E610079F096 /* UIScrollView+MJRefresh.m in Sources */,
 				BC72AC931B8C3E610079F096 /* SDImageCache.m in Sources */,
 				BC72AC8C1B8C3E610079F096 /* MJRefreshFooterView.m in Sources */,
+				BC72B0691B8C705F0079F096 /* MagaDetailViewController.m in Sources */,
 				BC72B02F1B8C3ED30079F096 /* MainViewController.m in Sources */,
 				BC72AC271B8C3DD80079F096 /* AppDelegate.m in Sources */,
 				BC72AC231B8C3DD80079F096 /* main.m in Sources */,
+				BC72B0721B8D4C5A0079F096 /* PicDetailViewController.m in Sources */,
 				BC72AC9B1B8C3E610079F096 /* UIImage+GIF.m in Sources */,
 				BC72ACA51B8C3E610079F096 /* QFURLRequest.m in Sources */,
 				BC72AC921B8C3E610079F096 /* NSData+ImageContentType.m in Sources */,
