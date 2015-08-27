@@ -11,5 +11,7 @@
 @interface PicDetailViewController : UIViewController
 
 @property (nonatomic,copy) NSString * gid;
+@property (nonatomic,strong) NSArray * idArr;
+@property (nonatomic,assign) NSInteger index;
 
 @end

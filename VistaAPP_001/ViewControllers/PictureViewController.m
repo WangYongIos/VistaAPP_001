@@ -134,8 +134,16 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     PicDetailViewController * detail = [[PicDetailViewController alloc] init];
+    NSMutableArray * idArr =[[NSMutableArray alloc] init];
+    for (int i = 0; i<_dataArr.count; i++) {
+        PictureModel * model = _dataArr[i];
+        [idArr addObject:model.gid];
+    }
+    NSLog(@"%@",idArr);
+    detail.idArr = idArr;
     PictureModel * model = _dataArr[indexPath.row];
     detail.gid = model.gid;
+    detail.index = indexPath.row;
     [self.navigationController pushViewController:detail animated:YES];
 }
 

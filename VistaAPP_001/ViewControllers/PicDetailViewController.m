@@ -35,6 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blackColor];
+    NSLog(@"%@",self.gid);
     [self creatNavigationBar];
     [self creatView];
     [self downloadData];
@@ -54,7 +55,7 @@
 }
 
 -(void) backPage{
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 -(void) downloadData{
@@ -129,8 +130,31 @@
 }
 
 -(void) click:(UIButton *) button{
-    if (button.tag == 2) {
+    if (button.tag == 0) {
+        if (self.index == 0) {
+            return;
+        }
+        PicDetailViewController * detail = [[PicDetailViewController alloc] init];
+        detail.idArr = self.idArr;
+        detail.index = self.index - 1;
+        detail.gid = self.idArr[self.index - 1];
+        [self.navigationController pushViewController:detail animated:YES];
+    }
+    else if (button.tag == 2) {
         button.selected = !button.selected;
+    }
+    else if (button.tag == 4) {
+        if (self.index == self.idArr.count-1) {
+            return;
+        }
+        PicDetailViewController * detail = [[PicDetailViewController alloc] init];
+        detail.idArr = self.idArr;
+        detail.index = self.index + 1;
+        detail.gid = self.idArr[self.index + 1];
+        if(self.index + 1 == 8){
+            button.enabled = NO;
+        }
+        [self.navigationController pushViewController:detail animated:YES];
     }
 }
 
